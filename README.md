@@ -24,7 +24,7 @@ Program bisa dijalankan di 2 tempat, lokal (local training), maupun Google Colab
 + Google Colab : 
     - Tensorflow GPU Enabled
     - Koneksi Google Drive (Menyimpan data, hasil, logs)
-    - Python Front-End services (untuk GUI input data) [optional]
+    - Anvil App For Front-End or GUI [optional]
 
 ### PARAMETERS
 - N_STEPS :[int] Menentukan berapa banyak data saham yang akan digunakan (dalam hari perdagangan)
