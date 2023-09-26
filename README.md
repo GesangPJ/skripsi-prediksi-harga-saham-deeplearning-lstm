@@ -31,4 +31,15 @@ Program bisa dijalankan di 2 tempat, lokal (local training), maupun Google Colab
 - LOOKUP_STEP: [int] Step Pencarian, 1 = besok hari
 - SCALE : [Boolean] Menentukan data diskalakan atau tidak
 - SHUFFLE : [Boolean] Menentukan data diacak atau tidak
-- 
+- SPLIT_BY_DATE : [Boolean] Menentukan data latih/test dipisah berdasarkan tanggal atau tidak
+- TEST_SIZE : [Double] Rasio data yang diambil untuk tes, format dalam persen
+- FEATURE_COLUMNS : [Array] Kolom apa saja yang digunakan
+- N_LAYERS : [int] Menentukan berapa layer yang digunakan (state dan hidden)
+- CELL : [String] Menentukan CELL apa yang digunakan
+- UNITS : [int] Menentukan berapa banyak Neurons
+- DROPOUT : [Double] Maksimum rasio dropout dalam persen
+- BIDIRECTIONAL : [Boolean] Menentukan LSTM bidirectional atau tidak
+- LOSS : [String] Menentukan Fitur LOSS
+- OPTIMIZER : [String] Menentukan Fitur Optimizer
+- BATCH_SIZE : [int] Menentukan ukuran BATCH_SIZE untuk training
+- EPOCHS : [int] Menentukan berapa kali data dilatih
